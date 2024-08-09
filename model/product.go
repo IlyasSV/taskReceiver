@@ -8,6 +8,6 @@ type Product struct {
 	Stock int
 }
 
-func (p *Product) Sell(stock int) {
-	p.Stock -= stock
+func (p *Product) Sell(amountOfStock int) {
+	p.Stock -= amountOfStock
 }
