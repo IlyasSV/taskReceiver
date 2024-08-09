@@ -14,5 +14,5 @@ func main() {
 
 	product.Sell(50)
 
-	fmt.Printf("Количество оставшего запаса: %+v\n", product)
+	fmt.Printf("Количество запаса товара: Name - %s, Stock: %d\n", product.Name, product.Stock)
 }
